@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a, p{
+    color: black;
+    font-size: 12px;
+}
+#section_header_2_dark{
+    width: 100%;
+    height: 80px;
+    background-color:#333333;
+    padding-top: 10px;
+}
+#section_header_2_dark .navbar-header{
+    width: auto;
+    float: left;
+    padding-top: 12px;
+}
+#section_header_2_dark .navbar-header img{
+    width: 160px;
+}
+#navbar-collapse-02{
+    width: auto;
+    float: right;
+}
+#navbar-collapse-02 .nav{
+    float: left;
+    padding-top: 8px;
+    font-size: 18px;
+    color: #fdcb33;
+    margin-right: 15px;
+    font-weight: 600;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-decoration: none;
+}
+#navbar-collapse-02 .nav li{
+    margin-right: 10px;
+}
+#navbar-collapse-02 .propCloneLink a{
+    font-size: 15px;
+    color: #cccccc;
+    text-decoration: none;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+#navbar-collapse-02 .propCloneLink , .propCloneP{
+    margin-top: 5px;
+    }
+
+.section_video{
+    width: 100%;
+}
+
+#section_pix_4 .title_style{
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.has-video{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/video/video_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+#section_pix_4 .subtitle_style{
+    font-size: 15px;
+    padding-top: 20px;
+    color: white;
+    width: 50%;    
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_pix_4 .email_subscribe{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    width: 40%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+}
+#subscribe_btn_1{
+    color: white;
+    background-color: #fdcb33;
+    height: 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 3px;
+}
+#email{
+    height: 25px;
+    padding-left: 5px;
+    width: 50%;
+    margin: 15px;
+    border: none;
+    border-radius: 3px;
+}
+#section_pix_4 .creative_note{
+    height: 50px;
+    padding-top: 25px;
+    color: white;
+    display: block;
+    justify-content: center;
+}
+#section_university_5{
+    width: 85%;
+    height: 800px;
+    display: table;
+    padding-top:100px;
+    padding-left:150px ;
+}
+#section_university_5 .alpha{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+
+}
+.icon_st {
+    order: -1; 
+    margin-right: 10px; 
+    
+  }
+  .text_st{
+    margin-left: 50px;
+  }
+  .text_st h3{
+        size: 50px;
+        width: 60%;
+        text-align: left;
+        color:  gray;
+        display: flex;
+  }
+  .psingle_item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .six.columns.omega {
+    display: table-cell;
+    width: 50%; 
+    margin: 0 auto;
+  }
+  
+  .substyle.pix_builder_bg {
+    width: 60%;
+    background-color: #ebeaea;
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-bottom: 50px;
+  }
+  
+  .title-style {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  form#contact_form {
+    margin-top: 20px;
+  }
+  
+  .six.columns.omega [type="text"], .six.columns.omega input[type="email2"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .select_st select {
+    width: 77%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .send_btn {
+    text-align: center;
+    
+  }
+  
+  .submit_btn {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 77%;
+  }
+  #section_ecourse_7{
+    height: 100px;
+    background-color: #f6f6f6;
+}
+#section_ecourse_7 .seven{
+    width: auto;
+    float: left;
+    padding-top: 45px;
+    color: #b6b6b6;
+    font-size: 16px;
+}
+#section_ecourse_7 .pixfort_st{
+    color: #684598;
+    font-weight: bold;
+}
+#section_ecourse_7 .likes_st{
+    width: auto;
+    float: right;
+    padding-top: 45px;
+    color: #b6b6b6;
+    font-size: 16px;
+}
+#section_ecourse_7 .bottom-icons{
+    width: auto;
+    float: right;
+    padding-top: 25px;
+    display: flex;
+    list-style-type: none;
+
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
