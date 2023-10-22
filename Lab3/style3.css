@@ -1,0 +1,78 @@
+.form-container {
+    width: 33.33%;
+    margin: 0 auto;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding-left: 20px; 
+  }
+
+  .form-border {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .date-inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .gender-inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .payment-inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /* .card-details {
+    
+  } */
+
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

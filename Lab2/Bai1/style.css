@@ -26,6 +26,7 @@ a,p{
     width: auto;
     float: right;
     padding-top: 18px;
+    display: flex;
 }
 
 #section_normal_1 .omega .htext_style{
